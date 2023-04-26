@@ -5,7 +5,6 @@ const ServiceDetails = ({service}) => {
         <div>
              <h2 className="text-2xl">{service.id} </h2>
              <h2 className="text-2xl">{service.title} </h2>
-
             <p> {service.body} </p>
             <Link href={`/services/`} >
              <button className="btn btn-success"> Back to Service Page </button>
